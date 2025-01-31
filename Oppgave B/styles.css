@@ -1,0 +1,192 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    background-color: #D4E4BC;
+}
+
+header{
+    display: flex;
+    background-color: #201E50;
+    margin: 0;
+    padding: 15px;
+    justify-content: space-evenly;
+}
+
+.text_link{
+    display: flex;
+    background-color: #157183;
+    padding: 20px;
+    align-items: center;
+    font-size: 30px;
+    color: white;
+    border-radius: 25px;
+}
+
+h2 {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 45px;
+    margin-top:0;
+}
+
+.box_text {
+    text-align: center;
+}
+
+.info_box {
+    display: flex;
+
+    flex-direction: row;
+    gap:10px;
+    padding:10px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.jeg_box {
+    display: flex;
+    flex-direction: column;
+    height: 270px;
+    width: 450px;
+}
+
+.jeg_text {
+    display: flex;
+    background-color: #EEC584;
+    height: 270px;
+    padding: 10px;
+    font-size:larger;
+    outline: solid;
+}
+
+.jeg_textover, .skills_textover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    font-weight: 600;
+    padding:5px;
+    height:50px;
+}
+
+.profilbilde {
+    display: flex;
+    margin:25px;
+    margin-bottom:10px;
+    justify-content: center;
+}
+
+.skills_info_box {
+    display: flex;
+
+    flex-direction: row;
+    gap:10px;
+    padding:10px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.skills_box {
+    display: flex;
+    flex-direction: column;
+    height: 270px;
+    width: 250px;
+}
+
+.skills_text {
+    display: flex;
+    background-color: #EEC584;
+    height: 270px;
+    padding: 10px;
+    font-size:larger;
+    outline: solid;
+}
+
+.skills_overskrift, .projects_overskrift{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 60px;
+    font-weight: 600;
+    height:50px;
+    margin-top:80px;
+}
+
+.projects_overskrift{
+    margin-bottom: 50px;
+}
+
+.projects_info_box{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "img img"
+    "img img";
+}
+
+.project_image{
+    grid-area: img;
+    display: flex;
+    justify-content: space-evenly;
+    object-fit: contain;
+}
+
+.project_image img{
+    display: flex;
+    margin:10px;
+    justify-content: center;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.text1{
+    grid-area: text;
+    display: flex;
+    justify-content: space-evenly;
+    font-size:60px;
+    padding-left: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+    gap: 9rem;
+}
+.text1 h3{
+    margin: 0;
+}
+
+.picture_link{
+    background-color: #201E50;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.picture_link:hover{
+    background-color: #157183;
+    outline: solid;
+    outline-color: #201E50;
+}
+
+footer{
+    background-color: #201E50;
+    padding-top: 100px;
+    margin-top: 50px;
+    color: white;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    justify-content: center;
+    align-items: left;
+    padding: 20px;
+}
+
+.footer_link{
+    display: flex;
+    width: 150px;
+    flex-direction: column;
+    gap: 15px;
+    align-items: left;
+}
