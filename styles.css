@@ -49,7 +49,7 @@ h2 {
 .jeg_box {
     display: flex;
     flex-direction: column;
-    height: 270px;
+    height: 250px;
     width: 450px;
 }
 
@@ -185,8 +185,8 @@ footer{
 
 .footer_link{
     display: flex;
-    width: 150px;
-    flex-direction: column;
+    width: 100%;
+    flex-direction: row;
     gap: 15px;
     align-items: left;
 }
